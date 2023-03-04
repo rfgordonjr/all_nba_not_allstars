@@ -82,9 +82,51 @@ Here's the full list:
 |   1958|NBA |2nd |Tom Gola            |G        |
 |   1951|NBA |2nd |Frankie Brian       |NA       |
 
+The list can be downloaded under `data > all_nba_non_all_stars.xlsx` in this repository. Enjoy!
+
 ## Sources
 
 Special thanks to Basketball-reference and Wikipedia
 
 - NBA & ABA All-League Teams: <https://www.basketball-reference.com/awards/all_league.html#awards_all_league>
 - List of NBA All-Stars: <https://en.wikipedia.org/wiki/List_of_NBA_All-Stars>
+
+## Session Info
+
+```
+R version 4.2.1 (2022-06-23)
+Platform: x86_64-apple-darwin17.0 (64-bit)
+Running under: macOS Big Sur 11.7.4
+
+Matrix products: default
+LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
+
+locale:
+[1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+other attached packages:
+ [1] openxlsx_4.2.5.2 ggplot2_3.3.6    stringr_1.4.1    purrr_0.3.4     
+ [5] tidyr_1.2.0      janitor_2.1.0    readr_2.1.2      rvest_1.0.3     
+ [9] polite_0.1.2     dplyr_1.0.10     here_1.0.1      
+
+loaded via a namespace (and not attached):
+ [1] Rcpp_1.0.9       lubridate_1.8.0  assertthat_0.2.1 rprojroot_2.0.3 
+ [5] digest_0.6.29    utf8_1.2.2       mime_0.12        R6_2.5.1        
+ [9] evaluate_0.16    highr_0.9        httr_1.4.4       pillar_1.8.1    
+[13] rlang_1.0.5      curl_4.3.2       rstudioapi_0.14  rmarkdown_2.16  
+[17] labeling_0.4.2   selectr_0.4-2    bit_4.0.4        munsell_0.5.0   
+[21] xfun_0.32        compiler_4.2.1   spiderbar_0.2.5  pkgconfig_2.0.3 
+[25] htmltools_0.5.3  tidyselect_1.1.2 tibble_3.1.8     fansi_1.0.3     
+[29] crayon_1.5.1     tzdb_0.3.0       withr_2.5.0      grid_4.2.1      
+[33] gtable_0.3.1     lifecycle_1.0.1  DBI_1.1.3        magrittr_2.0.3  
+[37] scales_1.2.1     zip_2.2.0        cli_3.3.0        stringi_1.7.8   
+[41] vroom_1.5.7      cachem_1.0.6     farver_2.1.1     fs_1.5.2        
+[45] robotstxt_0.7.13 snakecase_0.11.0 ratelimitr_0.4.1 xml2_1.3.3      
+[49] ellipsis_0.3.2   generics_0.1.3   vctrs_0.4.1      tools_4.2.1     
+[53] bit64_4.0.5      glue_1.6.2       hms_1.1.2        parallel_4.2.1  
+[57] fastmap_1.1.0    colorspace_2.0-3 memoise_2.0.1    knitr_1.40      
+[61] usethis_2.1.6   
+```
