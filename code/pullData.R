@@ -96,5 +96,9 @@ all_league_not_all_stars %>% filter(grepl("DeAndre Jordan", player, ignore.case=
 all_league_long %>% filter(grepl("DeAndre Jordan", player, ignore.case=TRUE))
 all_star_by_year %>% filter(grepl("DeAndre Jordan", player, ignore.case=TRUE))
 
+all_league_not_all_stars %>% 
+  filter(player %in% c("Rudy Gobert", "Kevin Johnson", "John Stockton", "Hakeem Olajuwon", "DeAndre Jordan", "Carmelo Anthony")) %>% 
+  arrange(desc(player))
+
 ## write to file ####
 openxlsx::write.xlsx(x = all_league_not_all_stars,file = here::here('data/all_nba_non_all_stars.xlsx'))
